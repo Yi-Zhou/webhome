@@ -1,2 +1,2 @@
-##WbeHome
-The web homepage of Joey Zhou Yi
+##WebHome
+Joey Zhou Yi's personal home page
