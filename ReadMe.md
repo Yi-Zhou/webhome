@@ -1,2 +1,2 @@
 ##WebHome
-Joey Zhou Yi's personal home page
+Zhou Yi's personal home page
