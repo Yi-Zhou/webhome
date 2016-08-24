@@ -27,10 +27,35 @@ body {
     position: relative;
 }
 
+.menu-toggle-wrapper {
+    display: none;
+    position: absolute;
+    right: 3%;
+    top: -45px;
+}
+
+.menu-toggle {
+    display: block;
+    width: 45px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 30px;
+    position:relative;
+    color: #ddd;
+}
+
+.menu-bars {
+    position: absolute;
+    left: 9px;
+    bottom: 2px;
+    color: inherit;
+}
+
 figure.avatar-wrapper {
     position: absolute;
     top: -80px;
-    left: 5%;
+    left: 10%;
+    margin: 0;
 }
 
 a.avatar {
@@ -87,21 +112,9 @@ nav.navbar > ul.nav-list > li > a{
     min-width: 100px;
 }
 
-@media screen and (max-width: 768px) {
-    .header-image-wrapper {
-        height: 250px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .header-image-wrapper {
-        height: 200px;
-    }
-}
-
 @media screen and (max-width: 900px) {
     figure.avatar-wrapper {
-        left: 3.5%;
+        left: 10%;
     }
 
     nav.navbar > ul.nav-list {
@@ -113,6 +126,30 @@ nav.navbar > ul.nav-list > li > a{
     nav.navbar >ul.nav-list > li {
         display: none;
     }
+
+    .menu-toggle-wrapper {
+        display: block;
+    }
+
+    .header-image-wrapper {
+        height: 250px;
+    }
 }
 
+@media screen and (min-width: 850px) {
+    .menu-toggle-wrapper {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 480px) {
+
+    .header-image-wrapper {
+        height: 200px;
+    }
+
+    figure.avatar-wrapper {
+        left: 10%;
+    }
+}
 
