@@ -51,17 +51,27 @@ body {
     color: inherit;
 }
 
+.header-name-wrapper {
+    position: absolute;
+    width: 200px;
+    left: 42%;
+    top: -190px;
+    color: #f8f8f8;
+    font-size: 40px;
+    font-family: Courier;
+}
+
 figure.avatar-wrapper {
     position: absolute;
-    top: -80px;
-    left: 10%;
+    top: -87px;
+    left: 7%;
     margin: 0;
 }
 
 a.avatar {
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 105px;
+    width: 105px;
     background-image: url("../img/avatar.jpeg");
     -webkit-background-size: cover;
     background-size: cover;
@@ -113,13 +123,11 @@ nav.navbar > ul.nav-list > li > a{
 }
 
 @media screen and (max-width: 900px) {
-    figure.avatar-wrapper {
-        left: 10%;
-    }
 
     nav.navbar > ul.nav-list {
         right: 3%;
     }
+    
 }
 
 @media screen and (max-width: 850px) {
@@ -134,6 +142,11 @@ nav.navbar > ul.nav-list > li > a{
     .header-image-wrapper {
         height: 250px;
     }
+
+    .header-name-wrapper {
+        left: 40%;
+        top: -55px;
+    }
 }
 
 @media screen and (min-width: 850px) {
@@ -146,10 +159,6 @@ nav.navbar > ul.nav-list > li > a{
 
     .header-image-wrapper {
         height: 200px;
-    }
-
-    figure.avatar-wrapper {
-        left: 10%;
     }
 }
 
