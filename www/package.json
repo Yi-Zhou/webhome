@@ -1,0 +1,24 @@
+{
+  "name": "webhome",
+  "version": "1.0.0",
+  "description": "Yi Zhou's personal homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yi-Zhou/webhome.git"
+  },
+  "author": "Yi Zhou <argon.zhou@connect.polyu.hk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yi-Zhou/webhome/issues"
+  },
+  "homepage": "https://github.com/Yi-Zhou/webhome#readme",
+  "readme": "../ReadMe.md",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
